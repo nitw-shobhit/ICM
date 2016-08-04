@@ -1,0 +1,1 @@
+var module = angular.module('icm-app', ['ui.router', 'ui.bootstrap', 'ngDialog']);

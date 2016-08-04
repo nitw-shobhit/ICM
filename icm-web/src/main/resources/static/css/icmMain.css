@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.baseBody {
+	background: url(/images/background.jpg) center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 745px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	box-shadow: 3px 3px 3px #888, -3px 3px 3px #888, 3px -3px 3px #888, -3px -3px 3px #888;
+}
