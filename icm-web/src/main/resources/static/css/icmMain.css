@@ -1,14 +1,38 @@
 @CHARSET "UTF-8";
-.baseBody {
+
+.base-body,
+.base-html {
+	height: 100%;
+	width: 100%;	
+}
+.parent-frame {
 	background: url(/images/background.jpg) center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 745px;
-	width: 1000px;
+	height: 99%;
+	width: 99%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5px;
 	box-shadow: 3px 3px 3px #888, -3px 3px 3px #888, 3px -3px 3px #888, -3px -3px 3px #888;
+}
+
+.header-frame {
+	height: 5%;
+	width: 100%;
+	border: 1px solid;
+}
+
+.content-frame {
+	height: 93%;
+	width: 100%;
+	border: 1px solid;
+}
+
+.footer-frame {
+	height: 2%;
+	width: 100%;
+	border: 1px solid;
 }

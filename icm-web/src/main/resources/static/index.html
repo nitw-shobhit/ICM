@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-ng-app="icm-app">
+<html data-ng-app="icm-app" class="base-html">
 <head>
 <meta charset="UTF-8">
 <title>Install, Configure, Manage</title>
@@ -17,15 +17,11 @@
 	<link rel="stylesheet" href="css/icmMain.css">
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
-<body>
-	<div class="baseBody">
-<!-- 		<div data-ui-view="userInfo"></div> -->
-<!-- 		<div data-ui-view="messageBox"></div> -->
-<!-- 		<div class="contentBox"> -->
-<!-- 			<div data-ui-view="content" class="content"> -->
-<!-- 			</div> -->
-<!-- 		</div> -->
-<!-- 		<div data-ui-view="footer"></div> -->
+<body class="base-body">
+	<div class="parent-frame">
+		<div data-ui-view="header" class="header-frame"></div>
+		<div data-ui-view="content" class="content-frame"></div>
+		<div data-ui-view="footer" class="footer-frame"></div>
 	</div>
 </body>
 </html>
