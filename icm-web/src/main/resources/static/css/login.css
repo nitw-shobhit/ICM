@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+.login-box {
+	background: url(/images/loginbox.jpg);
+	height: 300px;
+	width: 400px;
+	background-size: 400px 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	box-shadow: 7px 7px 7px #888;
+}
+.login-fields {
+	height: 31px;
+	width: 246px;
+}
+.login-submit {
+	font-weight: bold;
+}
+.login-buttons {
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+.login-username-field {
+	margin-top: 93px;
+}
+.login-password-field {
+	margin-top: 22px;
+}
+.login-social {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login-social-text {
+	font-size: 12px;
+}
+.btn-separator {
+	padding-left: 10px;
+}
+.btn-social {
+	color: #FFF;
+}
+.btn-facebook {
+	background:#3b5998;
+} 
+.btn-linkedin {
+	background:#007bb6;
+}
+.btn-twitter {
+	background:#00aced;
+}
+.btn-google {
+	background:#dd4b39;
+}

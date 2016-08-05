@@ -4,6 +4,38 @@
 <meta charset="UTF-8">
 </head>
 <body>
-LOGIN
+	<br><br><br><br><br><br><br><br><br>
+	<div class="login-box">
+		<input type= "text" placeholder="User Name" class= "login-fields login-username-field" data-ng-model="userId" />
+		<input type= "password" placeholder="Password" class="login-fields login-password-field" data-ng-model="userPass" />
+		<table class="login-buttons">
+			<tr>
+				<td>
+					<button class="btn btn-primary login-submit" data-ng-click="login()">Login</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br>
+	
+	<div class="login-social">
+		<span class="login-social-text">Sign in with : </span>
+		<table>
+			<tr>
+				<td>
+					<button data-ng-click="loginSocial('facebook')" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i></button>
+				</td>
+				<td class="btn-separator">
+					<button data-ng-click="loginSocial('google')" class="btn btn-social btn-google"><i class="fa fa-google"></i></button>
+				</td>
+				<td class="btn-separator">
+					<button data-ng-click="loginSocial('twitter')" class="btn btn-social btn-twitter"><i class="fa fa-twitter"></i></button>
+				</td>
+				<td class="btn-separator">
+					<button data-ng-click="loginSocial('linkedin')" class="btn btn-social btn-linkedin"><i class="fa fa-linkedin"></i></button>
+				</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>

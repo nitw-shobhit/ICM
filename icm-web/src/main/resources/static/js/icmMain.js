@@ -31,8 +31,7 @@ module.config(function ($stateProvider, $urlRouterProvider, $provide) {
 					controller : 'loginCtrl'
 				},
 				'footer' : {
-					templateUrl : 'pages/footer.html',
-					controller : 'footerCtrl'
+					templateUrl : 'pages/footer.html'
 				}
 			}
 		}
