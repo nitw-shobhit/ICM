@@ -14,10 +14,10 @@ module.run(function($rootScope) {
 });
 
 //STATE ROUTES
-module.config(function ($stateProvider, $urlRouterProvider, $provide) {
-	$stateProvider.state('icm',
+module.config(function ($stateProvider, $urlRouterProvider, $provide, $locationProvider) {
+	$stateProvider.state('login',
 		{
-			url: "/login",
+			url: "/",
 			views: {
 				'header' : {
 					templateUrl : 'pages/logo.html'
@@ -36,5 +36,6 @@ module.config(function ($stateProvider, $urlRouterProvider, $provide) {
 			}
 		}
 	);
-	$urlRouterProvider.otherwise("/login");
+	$locationProvider.html5Mode(true);
+	$urlRouterProvider.otherwise("/");
 });
