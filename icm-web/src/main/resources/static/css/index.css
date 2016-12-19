@@ -18,20 +18,3 @@
 	margin-top: 5px;
 	box-shadow: 3px 3px 3px #888, -3px 3px 3px #888, 3px -3px 3px #888, -3px -3px 3px #888;
 }
-
-.header-frame {
-	height: 3%;
-	width: 100%;
-}
-
-.content-frame {
-	height: 95%;
-	width: 100%;
-}
-
-.footer-frame {
-	height: 2%;
-	width: 100%;
-	border-top: 1px solid #AAA;
-	font-size: 11px;
-}
